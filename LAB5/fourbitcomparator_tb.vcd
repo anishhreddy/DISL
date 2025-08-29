@@ -1,0 +1,62 @@
+$date
+	Sat Aug 30 01:47:19 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fourbitcomparator_tb $end
+$var wire 1 ! XltY $end
+$var wire 1 " XgtY $end
+$var wire 1 # XeqY $end
+$var reg 4 $ x [3:0] $end
+$var reg 4 % y [3:0] $end
+$scope module ins_fourbitcomparator $end
+$var wire 4 & x [3:0] $end
+$var wire 4 ' y [3:0] $end
+$var reg 1 # XeqY $end
+$var reg 1 " XgtY $end
+$var reg 1 ! XltY $end
+$var reg 4 ( i [3:0] $end
+$scope begin $ivl_for_loop0 $end
+$var integer 32 ) k [31:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 )
+b0 (
+b111 '
+b1000 &
+b111 %
+b1000 $
+0#
+1"
+0!
+$end
+#20
+1!
+0"
+b1110 (
+b100 )
+b101 %
+b101 '
+b100 $
+b100 &
+#40
+1#
+0!
+b1111 (
+b100 )
+b11 %
+b11 '
+b11 $
+b11 &
+#60
