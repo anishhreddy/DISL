@@ -1,6 +1,6 @@
 module MUX2to1(w,s,f);
 
-input [1:0]w;
+input [0:1]w;
 input s;
 output reg f;
 

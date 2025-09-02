@@ -1,5 +1,5 @@
 $date
-	Sat Aug 30 02:44:40 2025
+	Tue Sep 02 23:57:55 2025
 $end
 $version
 	Icarus Verilog
@@ -13,7 +13,7 @@ $var reg 1 " s $end
 $var reg 2 # w [1:0] $end
 $scope module MUX2to1_ins $end
 $var wire 1 " s $end
-$var wire 2 $ w [1:0] $end
+$var wire 2 $ w [0:1] $end
 $var reg 1 ! f $end
 $upscope $end
 $upscope $end
@@ -26,10 +26,10 @@ $dumpvars
 b1 $
 b1 #
 0"
-1!
+0!
 $end
 #20
-0!
+1!
 b10 #
 b10 $
 #40
