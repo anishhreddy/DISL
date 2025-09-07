@@ -4,7 +4,7 @@ input [0:1]w;
 input s;
 output reg f;
 
-always @(w or s) begin
+always @(*) begin
     if(s == 1'b0)
     begin
         f = w[0];
