@@ -1,0 +1,57 @@
+$date
+	Wed Sep 10 00:56:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module comparator_tb $end
+$var wire 1 ! XltY $end
+$var wire 1 " XgtY $end
+$var wire 1 # XeqY $end
+$var reg 4 $ x [3:0] $end
+$var reg 4 % y [3:0] $end
+$scope module comparator_ins $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var reg 1 # XeqY $end
+$var reg 1 " XgtY $end
+$var reg 1 ! XltY $end
+$var reg 4 ( i [3:0] $end
+$var integer 32 ) j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b100 )
+b1111 (
+b111 '
+b111 &
+b111 %
+b111 $
+1#
+0"
+0!
+$end
+#10
+1!
+0#
+b1110 (
+b100 )
+b110 $
+b110 &
+#20
+1"
+0!
+b100 )
+b110 %
+b110 '
+b111 $
+b111 &
+#30

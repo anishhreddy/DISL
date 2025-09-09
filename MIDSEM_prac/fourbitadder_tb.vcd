@@ -1,0 +1,100 @@
+$date
+	Wed Sep 10 00:30:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module fourbitadder_tb $end
+$var wire 4 ! s [3:0] $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 1 % cin $end
+$scope module fourbitadder_ins $end
+$var wire 4 & a [3:0] $end
+$var wire 4 ' b [3:0] $end
+$var wire 1 % cin $end
+$var wire 4 ( s [3:0] $end
+$var wire 1 " cout $end
+$var wire 3 ) c [3:1] $end
+$scope module stage0 $end
+$var wire 1 * a $end
+$var wire 1 + b $end
+$var wire 1 % c $end
+$var wire 1 , carry $end
+$var wire 1 - sum $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 . a $end
+$var wire 1 / b $end
+$var wire 1 0 c $end
+$var wire 1 1 carry $end
+$var wire 1 2 sum $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 3 a $end
+$var wire 1 4 b $end
+$var wire 1 5 c $end
+$var wire 1 6 carry $end
+$var wire 1 7 sum $end
+$upscope $end
+$scope module stage3 $end
+$var wire 1 8 a $end
+$var wire 1 9 b $end
+$var wire 1 : c $end
+$var wire 1 " carry $end
+$var wire 1 ; sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1;
+0:
+09
+18
+17
+06
+05
+14
+03
+02
+01
+00
+0/
+0.
+1-
+0,
+1+
+0*
+b0 )
+b1101 (
+b101 '
+b1000 &
+0%
+b101 $
+b1000 #
+0"
+b1101 !
+$end
+#10
+12
+b111 !
+b111 (
+0;
+0+
+1*
+1.
+08
+b100 $
+b100 '
+b11 #
+b11 &
+#20
