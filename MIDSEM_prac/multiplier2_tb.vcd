@@ -1,0 +1,67 @@
+$date
+	Tue Sep 09 23:29:14 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module multiplier2_tb $end
+$var wire 4 ! s [3:0] $end
+$var reg 2 " m [1:0] $end
+$var reg 2 # q [1:0] $end
+$scope module multiplier2_ins $end
+$var wire 2 $ m [1:0] $end
+$var wire 2 % q [1:0] $end
+$var wire 4 & s [3:0] $end
+$var wire 2 ' c [1:0] $end
+$scope module halfadder_ins0 $end
+$var wire 1 ( a $end
+$var wire 1 ) b $end
+$var wire 1 * carry $end
+$var wire 1 + sum $end
+$upscope $end
+$scope module halfadder_ins1 $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 . carry $end
+$var wire 1 / sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1/
+0.
+0-
+1,
+1+
+0*
+0)
+1(
+b0 '
+b110 &
+b11 %
+b10 $
+b11 #
+b10 "
+b110 !
+$end
+#10
+0/
+1.
+1-
+0+
+b11 '
+1*
+b1001 !
+b1001 &
+1)
+b11 "
+b11 $
+#20
