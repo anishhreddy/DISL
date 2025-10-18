@@ -1,0 +1,170 @@
+$date
+	Wed Sep 10 11:02:23 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module sixbit_tb $end
+$var wire 4 ! count [3:0] $end
+$var reg 6 " w [5:0] $end
+$scope module sixbit_ins $end
+$var wire 6 # m [5:0] $end
+$var wire 4 $ sum2 [3:0] $end
+$var wire 4 % sum1 [3:0] $end
+$var wire 1 & sb $end
+$var wire 1 ' sa $end
+$var wire 4 ( count [3:0] $end
+$var wire 1 ) cb $end
+$var wire 1 * carry $end
+$var wire 1 + ca $end
+$scope module stage0 $end
+$var wire 1 , a $end
+$var wire 1 - b $end
+$var wire 1 . c $end
+$var wire 1 + carry $end
+$var wire 1 ' sum $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 / a $end
+$var wire 1 0 b $end
+$var wire 1 1 c $end
+$var wire 1 ) carry $end
+$var wire 1 & sum $end
+$upscope $end
+$scope module stage2 $end
+$var wire 4 2 a [3:0] $end
+$var wire 4 3 b [3:0] $end
+$var wire 1 4 cin $end
+$var wire 4 5 s [3:0] $end
+$var wire 1 * cout $end
+$var wire 3 6 c [3:1] $end
+$scope module stage0 $end
+$var wire 1 7 a $end
+$var wire 1 8 b $end
+$var wire 1 4 c $end
+$var wire 1 9 carry $end
+$var wire 1 : sum $end
+$upscope $end
+$scope module stage1 $end
+$var wire 1 ; a $end
+$var wire 1 < b $end
+$var wire 1 = c $end
+$var wire 1 > carry $end
+$var wire 1 ? sum $end
+$upscope $end
+$scope module stage2 $end
+$var wire 1 @ a $end
+$var wire 1 A b $end
+$var wire 1 B c $end
+$var wire 1 C carry $end
+$var wire 1 D sum $end
+$upscope $end
+$scope module stage3 $end
+$var wire 1 E a $end
+$var wire 1 F b $end
+$var wire 1 G c $end
+$var wire 1 * carry $end
+$var wire 1 H sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0H
+0G
+0F
+0E
+1D
+0C
+1B
+0A
+0@
+0?
+1>
+0=
+1<
+1;
+0:
+09
+08
+07
+b10 6
+b100 5
+04
+b10 3
+b10 2
+11
+00
+1/
+0.
+1-
+1,
+1+
+0*
+1)
+b100 (
+0'
+0&
+b10 %
+b10 $
+b101011 #
+b101011 "
+b100 !
+$end
+#10
+0D
+0B
+b0 6
+0>
+b10 !
+b10 (
+b10 5
+1?
+0;
+b0 %
+b0 2
+0+
+0,
+0-
+0/
+10
+b110000 "
+b110000 #
+#20
+1D
+1B
+1>
+b100 !
+b100 (
+b100 5
+0?
+1=
+b11 6
+19
+0<
+1;
+0)
+17
+1+
+18
+b11 %
+b11 2
+1'
+b1 $
+b1 3
+1&
+1,
+1-
+1.
+01
+b10111 "
+b10111 #
+#30
