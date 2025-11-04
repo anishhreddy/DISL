@@ -1,0 +1,137 @@
+$date
+	Tue Nov 04 20:22:39 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module q3_tb $end
+$var wire 1 ! y $end
+$var wire 1 " B $end
+$var wire 1 # A $end
+$var reg 1 $ clk $end
+$var reg 1 % reset $end
+$var reg 1 & x $end
+$scope module q3_ins $end
+$var wire 1 ' Ra $end
+$var wire 1 ( Rb $end
+$var wire 1 ) Sa $end
+$var wire 1 * Sb $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var wire 1 & x $end
+$var wire 1 ! y $end
+$var wire 1 " B $end
+$var wire 1 # A $end
+$scope module SRFFa $end
+$var wire 1 ' R $end
+$var wire 1 ) S $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var reg 1 # Q $end
+$upscope $end
+$scope module SRFFb $end
+$var wire 1 ( R $end
+$var wire 1 * S $end
+$var wire 1 $ clk $end
+$var wire 1 % reset $end
+$var reg 1 " Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+1*
+1)
+0(
+0'
+0&
+1%
+0$
+0#
+0"
+1!
+$end
+#2
+1"
+1#
+1)
+1!
+1&
+0%
+1$
+#4
+0)
+1(
+0*
+0&
+0$
+#6
+0!
+0"
+0)
+0(
+1*
+1&
+1$
+#8
+1'
+1(
+1!
+0*
+0&
+0$
+#10
+0#
+0'
+0(
+0!
+1*
+1&
+1$
+#12
+1)
+1!
+0&
+0$
+#14
+1#
+1"
+1)
+1!
+1&
+1$
+#16
+0)
+1(
+0*
+0&
+0$
+#18
+0!
+0"
+0)
+0(
+1*
+1&
+1$
+#20
+1'
+1(
+1!
+0*
+0&
+0$
+#22
+1)
+1*
+0'
+0(
+0#
+1$
